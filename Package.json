@@ -1,0 +1,23 @@
+{
+  "name": "translator-api",
+  "version": "1.0.0",
+  "description": "Translator backend API — Text, STT, TTS, Image OCR via Google Cloud",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^6.5.0",
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "@google-cloud/translate": "^8.3.0",
+    "@google-cloud/vision": "^4.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
